@@ -2,97 +2,117 @@
 /* CSS Document */
 
 body {
-	background-color:#BFBFBF;
+	background-color: white;
+	
 }
 
 .avatar {
   border-radius: 50%;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 20px;
-
+ 
 }
 
-.uppercase {
-	text-transform: uppercase; 
+.flex {
+	display: flex;
+	justify-content:space-between;
+	margin: auto;
+	min-width: 1251px;
+	max-width: 1251px;
+	min-height: 1083px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px black solid;
+}
+
+.flexitem {
+	background-color: ghostwhite;
+	width: 320px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	width: auto;
+	padding: 0;
+	font-weight: 900;
+	line-height: 30px;
+	font-size: 90%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.remove-linkdecor{
+	text-decoration: none;
+	color: black;
+}
+
+.man-pic{
+	height: 900px;
+}
+
+.flexitem2{
+	align-self: center;
+}
+.flexitem3{
+	align-self:flex-end;
+}
+
+.custom-font1{
+	font-family: 'Castoro', serif;
+}
+
+.custom-font2{
+	font-family: 'Raleway', sans-serif;
+}
+
+.main-h{
+	font-size: 70px;
+	line-height: 90px;
+	word-spacing: 8px;
+	margin: 0;
+}
+
+.nav-title{
+	line-height: 20px;
+}
+
+.upp{
+	text-transform: uppercase;
+}
+
+.nav-license{
+	text-align: center;
+	line-height: 25px;
 }
 
 .button {
-	border: thin solid #000000;
+	border: 2px solid #000000;
+	border-radius: 3%;
 	padding: 10px;
 }
 
 .button:hover {
 	
-	background-color:#BABABA;
+	text-decoration:underline;
 	color: black;
 	
 }
 
-.custom-font1{
-	font-family: 'Montserrat', sans-serif;
+.case-icon {
+	display: inline-block;
+	margin-left: 5px;
+	color:black;
 }
 
-.custom-font2{
-	font-family: 'Benne', serif;
-	font-weight: 900;
-}
-
-.flexbox-container {
-	display: flex;
-	align-items: center;
-	height: 100vh;
-}
-
-.flexbox-item1 {
-	min-width: 20%;
-	padding: 30px;
-	flex-shrink: 0;
-	flex-grow: 0;
-	text-align: center;
-	height: 100vh;
-}
-
-.flexbox-item2 {
-	min-width: 25%;
-	flex-grow: 2;
-	flex-shrink: 1;
-	text-align: center;
-
-}
-
-.flexbox-item3 {
-	min-width: 25%;
-	flex-grow: 1;
-	flex-shrink: 1;
-	text-align: right;
-
-}
-
-.nav-list {
-
-	list-style-type: none;
-	display:inline;
-	line-height: 30px;
-	font-weight: 900;
-	font-size: 90%;
-	position: relative;
-	bottom: 20px;
-}
-
-.nav-license {
+.portfolio {
 	
-	margin-top: 20px;
-	
+	letter-spacing: 3px;
+	font-size: 80%;
+	font-weight: 800;
 }
 
-.sub-title{
+.example-text{
 	
-	margin-top: 10px;
-	font-size: 90%;
-}
-
-.remove-linkdecor{
-	
-	text-decoration: none;
-	color: black;
+	margin-bottom: 40px;
 }
